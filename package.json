@@ -15,7 +15,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "node_modules/.bin/cypress open",
     "eject": "react-scripts eject"
@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/parser": "^7.17.3",
     "cypress": "^8.7.0"
   }
 }
